@@ -13,19 +13,19 @@ function startTime() {
   setTimeout(startTime, 1000);
   
   if (h >= 6 && h <12) {
-      document.getElementById('goodwhat').innerHTML = "günaydın!"
+      document.getElementById('goodwhat').innerHTML = "Günaydın!"
   }
   
   if (h >= 12 && h < 18) {
-    document.getElementById('goodwhat').innerHTML = "iyi günler!"
+    document.getElementById('goodwhat').innerHTML = "İyi günler!"
   }
   
 if (h >= 18) {
-    document.getElementById('goodwhat').innerHTML = "iyi akşamlar!"
+    document.getElementById('goodwhat').innerHTML = "İyi akşamlar!"
   }
   
   if (h >= 0 && h < 6) {
-    document.getElementById('goodwhat').innerHTML = "iyi akşamlar!"
+    document.getElementById('goodwhat').innerHTML = "İyi akşamlar!"
   }
 }
 
