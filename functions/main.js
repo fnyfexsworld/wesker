@@ -24,7 +24,7 @@ if (h >= 18) {
     document.getElementById('goodwhat').innerHTML = "Bonsoir !"
   }
   
-  if (h >= 20 && h < 6) {
+  if (h >= 0 && h < 6) {
     document.getElementById('goodwhat').innerHTML = "Bon nuit !"
   }
 }
