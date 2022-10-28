@@ -6,26 +6,26 @@ function startTime() {
   let h = today.getHours();
   let m = today.getMinutes();
   let s = today.getSeconds();
-  
+
   m = checkTime(m);
   s = checkTime(s);
   document.getElementById('clock').innerHTML = h + ":" + m + ":" + s;
   setTimeout(startTime, 1000);
-  
-  if (h >= 6 && h <12) {
-      document.getElementById('goodwhat').innerHTML = "Bonjour !"
+
+  if (h >= 6 && h < 12) {
+    document.getElementById('goodwhat').innerHTML = "Günaydın!"
   }
-  
+
   if (h >= 12 && h < 18) {
-    document.getElementById('goodwhat').innerHTML = "Bon après-midi !"
+    document.getElementById('goodwhat').innerHTML = "İyi günler!"
   }
-  
-if (h >= 18) {
-    document.getElementById('goodwhat').innerHTML = "Bonsoir !"
+
+  if (h >= 18) {
+    document.getElementById('goodwhat').innerHTML = "İyi akşamlar!"
   }
-  
+
   if (h >= 0 && h < 6) {
-    document.getElementById('goodwhat').innerHTML = "Bon nuit !"
+    document.getElementById('goodwhat').innerHTML = "İyi geceler!"
   }
 }
 
